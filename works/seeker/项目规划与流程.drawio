@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
   <diagram name="第 1 页" id="RAnofV5TpTS3j_4g2dHu">
-    <mxGraphModel dx="1562" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1877" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,31 +8,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Fmd-8I5noo5baAwEKWVO-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="170" y="40" width="90" height="50" as="geometry" />
+          <mxGeometry x="580" y="660" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Fmd-8I5noo5baAwEKWVO-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Fmd-8I5noo5baAwEKWVO-2" target="Fmd-8I5noo5baAwEKWVO-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Fmd-8I5noo5baAwEKWVO-2" value="准备简历数据" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="165" y="120" width="100" height="50" as="geometry" />
+          <mxGeometry x="575" y="740" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Fmd-8I5noo5baAwEKWVO-4" value="大模型 ：qwen-plus、百度（model_enum）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="290" y="390" width="260" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Fmd-8I5noo5baAwEKWVO-5" value="Prompt&amp;nbsp; 控制返回的Json格式数据&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="650" y="610" width="200" height="40" as="geometry" />
+          <mxGeometry x="700" y="1010" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Fmd-8I5noo5baAwEKWVO-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Fmd-8I5noo5baAwEKWVO-8" target="Fmd-8I5noo5baAwEKWVO-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Fmd-8I5noo5baAwEKWVO-8" value="抽取PDF中文本" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="165" y="205" width="100" height="50" as="geometry" />
+          <mxGeometry x="575" y="825" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Fmd-8I5noo5baAwEKWVO-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Fmd-8I5noo5baAwEKWVO-9" target="Fmd-8I5noo5baAwEKWVO-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Fmd-8I5noo5baAwEKWVO-9" value="将文本嵌入Prompt模板" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="165" y="290" width="100" height="50" as="geometry" />
+          <mxGeometry x="575" y="910" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Fmd-8I5noo5baAwEKWVO-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Fmd-8I5noo5baAwEKWVO-10" target="Fmd-8I5noo5baAwEKWVO-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -41,73 +38,91 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Fmd-8I5noo5baAwEKWVO-10" value="调用大语言模型" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="165" y="375" width="100" height="50" as="geometry" />
+          <mxGeometry x="575" y="995" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Fmd-8I5noo5baAwEKWVO-11" value="帮助大模型理解任务，并引导模型返回Json格式数据" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="1" vertex="1">
-          <mxGeometry x="265" y="285" width="50" height="65" as="geometry" />
+          <mxGeometry x="675" y="905" width="50" height="65" as="geometry" />
         </mxCell>
         <mxCell id="Fmd-8I5noo5baAwEKWVO-12" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="1" vertex="1">
-          <mxGeometry x="265" y="375" width="50" height="60" as="geometry" />
+          <mxGeometry x="675" y="995" width="50" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Fmd-8I5noo5baAwEKWVO-13" value="&lt;span style=&quot;text-align: center;&quot;&gt;使用PymuPDF&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="1" vertex="1">
-          <mxGeometry x="265" y="197.5" width="50" height="65" as="geometry" />
+        <mxCell id="Fmd-8I5noo5baAwEKWVO-13" value="&lt;span style=&quot;text-align: center;&quot;&gt;使用PymuPDF，或者Python tika&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="1" vertex="1">
+          <mxGeometry x="675" y="817.5" width="50" height="65" as="geometry" />
         </mxCell>
         <mxCell id="Fmd-8I5noo5baAwEKWVO-19" value="准备简历数据" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="165" y="120" width="100" height="50" as="geometry" />
+          <mxGeometry x="575" y="740" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="W3__g1lPB0kGk18yHPJ4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Fmd-8I5noo5baAwEKWVO-20" target="W3__g1lPB0kGk18yHPJ4-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Fmd-8I5noo5baAwEKWVO-20" value="Json格式之间返回前端" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="90" y="470" width="100" height="50" as="geometry" />
+          <mxGeometry x="500" y="1090" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="W3__g1lPB0kGk18yHPJ4-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Fmd-8I5noo5baAwEKWVO-22" target="W3__g1lPB0kGk18yHPJ4-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Fmd-8I5noo5baAwEKWVO-22" value="解析字段，存入&quot;实体类&quot;，提交数据库，以及返回前端" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="230" y="470" width="120" height="50" as="geometry" />
+          <mxGeometry x="640" y="1090" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Fmd-8I5noo5baAwEKWVO-23" value="直接返回Json，或类序列化为Json&lt;div&gt;返回&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="1" vertex="1">
-          <mxGeometry x="350" y="445" width="50" height="100" as="geometry" />
+          <mxGeometry x="760" y="1065" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="W3__g1lPB0kGk18yHPJ4-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W3__g1lPB0kGk18yHPJ4-1" target="W3__g1lPB0kGk18yHPJ4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W3__g1lPB0kGk18yHPJ4-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W3__g1lPB0kGk18yHPJ4-1" target="W3__g1lPB0kGk18yHPJ4-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W3__g1lPB0kGk18yHPJ4-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W3__g1lPB0kGk18yHPJ4-1" target="W3__g1lPB0kGk18yHPJ4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W3__g1lPB0kGk18yHPJ4-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W3__g1lPB0kGk18yHPJ4-1" target="W3__g1lPB0kGk18yHPJ4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W3__g1lPB0kGk18yHPJ4-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W3__g1lPB0kGk18yHPJ4-1" target="W3__g1lPB0kGk18yHPJ4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W3__g1lPB0kGk18yHPJ4-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W3__g1lPB0kGk18yHPJ4-1" target="W3__g1lPB0kGk18yHPJ4-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W3__g1lPB0kGk18yHPJ4-1" value="简历解析工具" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="640" width="120" height="40" as="geometry" />
+          <mxGeometry x="-120" y="630" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="W3__g1lPB0kGk18yHPJ4-2" value="文件预处理模块" style="rounded=1;whiteSpace=wrap;html=1;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="30" y="690" width="40" height="120" as="geometry" />
+          <mxGeometry x="-130" y="710" width="40" height="120" as="geometry" />
         </mxCell>
         <mxCell id="W3__g1lPB0kGk18yHPJ4-3" value="P&lt;div&gt;D&lt;/div&gt;&lt;div&gt;F&lt;/div&gt;&lt;div&gt;解&lt;/div&gt;&lt;div&gt;析&lt;/div&gt;&lt;div&gt;模&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;块&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="180" y="700" width="40" height="120" as="geometry" />
+          <mxGeometry x="50" y="710" width="40" height="120" as="geometry" />
         </mxCell>
         <mxCell id="W3__g1lPB0kGk18yHPJ4-4" value="Prompt构&lt;div&gt;建&lt;br&gt;&lt;div&gt;模&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;块&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="370" y="700" width="40" height="120" as="geometry" />
+          <mxGeometry x="140" y="710" width="40" height="120" as="geometry" />
         </mxCell>
         <mxCell id="W3__g1lPB0kGk18yHPJ4-5" value="模型调用&lt;div&gt;&lt;div&gt;模&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;块&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="640" y="710" width="40" height="120" as="geometry" />
+          <mxGeometry x="215" y="710" width="40" height="120" as="geometry" />
         </mxCell>
         <mxCell id="W3__g1lPB0kGk18yHPJ4-6" value="数据处理&lt;br&gt;&lt;div&gt;&lt;div&gt;模&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;块&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="690" y="710" width="40" height="120" as="geometry" />
+          <mxGeometry x="275" y="710" width="40" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="W3__g1lPB0kGk18yHPJ4-7" value="需求：构建一个工具，完成简历的解析（即提取简历中的文字），由于一份简历中文字内容排版，顺序，核心信息字段命名可能都不一样，&lt;div&gt;组合的情况有很多，后端难以直接处理文本，不易全面地获得关键信息交由前端渲染。大语言模型善于文字的理解以及处理，可以通过&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="410" y="930" width="750" height="40" as="geometry" />
+        <mxCell id="W3__g1lPB0kGk18yHPJ4-7" value="需求与目标：构建一个工具，完成简历的解析（即提取简历中的文字），&lt;div&gt;由于一份简历中文字内容排版，顺序，核心信息字段命名可能都不一样，&lt;div&gt;组合的情况有很多，后端难以直接处理文本，&lt;/div&gt;&lt;div&gt;不易全面地获得关键信息交由前端渲染。大语言模型善于文字的理解以及处理，&lt;/div&gt;&lt;div&gt;可以通过大语言模型解析出关键信息&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="545" width="440" height="90" as="geometry" />
         </mxCell>
         <mxCell id="W3__g1lPB0kGk18yHPJ4-8" value="文件上传模块" style="rounded=1;whiteSpace=wrap;html=1;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="-245" y="690" width="40" height="120" as="geometry" />
+          <mxGeometry x="-400" y="710" width="40" height="120" as="geometry" />
         </mxCell>
         <mxCell id="W3__g1lPB0kGk18yHPJ4-9" value="文本类型判断（限制为.pdf）&lt;br&gt;&lt;div&gt;文件大小判断，禁止异常大文件（同java&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;10MB限制&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;）&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-380" y="840" width="310" height="40" as="geometry" />
+          <mxGeometry x="-510" y="830" width="310" height="40" as="geometry" />
         </mxCell>
         <mxCell id="W3__g1lPB0kGk18yHPJ4-10" value="&lt;div&gt;格式判断：带文本层的PDF或图片转换的PDF&lt;/div&gt;&lt;div&gt;文本层型的PDF采用PymuPDF提取文字&lt;/div&gt;图片型的PDF采用OCR提取文字&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="840" width="260" height="70" as="geometry" />
+          <mxGeometry x="-210" y="830" width="260" height="70" as="geometry" />
         </mxCell>
         <mxCell id="W3__g1lPB0kGk18yHPJ4-11" value="Prompt参考java实现" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="305" y="838" width="130" height="30" as="geometry" />
+          <mxGeometry x="100" y="840" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="W3__g1lPB0kGk18yHPJ4-12" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="170" y="560" width="90" height="50" as="geometry" />
+          <mxGeometry x="580" y="1180" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="W3__g1lPB0kGk18yHPJ4-15" value="前端传入参数 parseProfileByDaxtraParam&#xa;              |&#xa;        candidateAttachment&#xa;      （可能是JSON或路径）&#xa;              |&#xa;          ↓ try解析&#xa;      成功             失败&#xa;     |path+name|    |直接作为路径|&#xa;              |&#xa;     提取文件扩展名（html/pdf等）&#xa;              |&#xa;      是否为html？是否需要转换？&#xa;              |&#xa;           转成PDF（除两家特殊公司）&#xa;              |&#xa;        检查文件是否存在&#xa;              |&#xa;        设置originalFilename&#xa;              |&#xa;      调用简历解析服务 service.parseDaxtra(...)&#xa;              |&#xa;            返回成功结果" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="840" y="310" width="280" height="340" as="geometry" />
+        <mxCell id="W3__g1lPB0kGk18yHPJ4-15" value="JAVA 的预处理如下&#xa; 前端传入参数 parseProfileByDaxtraParam&#xa;              |&#xa;        candidateAttachment&#xa;      （可能是JSON或路径）&#xa;              |&#xa;          ↓ try解析&#xa;      成功             失败&#xa;     |path+name|    |直接作为路径|&#xa;              |&#xa;     提取文件扩展名（html/pdf等）&#xa;              |&#xa;      是否为html？是否需要转换？&#xa;              |&#xa;           转成PDF（除两家特殊公司）&#xa;              |&#xa;        检查文件是否存在&#xa;              |&#xa;        设置originalFilename&#xa;              |&#xa;      调用简历解析服务 service.parseDaxtra(...)&#xa;              |&#xa;            返回成功结果" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="340" width="280" height="340" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
