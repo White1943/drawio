@@ -104,7 +104,7 @@
           <mxGeometry x="275" y="710" width="40" height="120" as="geometry" />
         </mxCell>
         <mxCell id="W3__g1lPB0kGk18yHPJ4-7" value="需求与目标：构建一个工具，完成简历的解析（即提取简历中的文字），&lt;div&gt;由于一份简历中文字内容排版，顺序，核心信息字段命名可能都不一样，&lt;div&gt;组合的情况有很多，后端难以直接处理文本，&lt;/div&gt;&lt;div&gt;不易全面地获得关键信息交由前端渲染。大语言模型善于文字的理解以及处理，&lt;/div&gt;&lt;div&gt;可以通过大语言模型解析出关键信息&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-440" y="545" width="440" height="90" as="geometry" />
+          <mxGeometry x="-500" y="530" width="440" height="90" as="geometry" />
         </mxCell>
         <mxCell id="W3__g1lPB0kGk18yHPJ4-8" value="文件上传模块" style="rounded=1;whiteSpace=wrap;html=1;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="-400" y="710" width="40" height="120" as="geometry" />
